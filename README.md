@@ -102,6 +102,13 @@ Options:
     - --user-class (-uc)            The user class for which we want to generate password. (default: "Symfony\\Component\\Security\\Core\\User\\User")  
 
 
+Example for à `FOS\UserBundle\Model\UserInterface` user :
+```
+php bin/console ogi:pwd_encode p@ssw0rd --salt s@lt --user-class "FOS\UserBundle\Model\UserInterface"
+Encoding password...
+Your encoded password: a+1+g+m/ZK6G/tzE8C5ZRu7n/RM=
+```
+
 ## Improvements
 
 The following improvements could be made:
