@@ -1,0 +1,33 @@
+{
+    "name": "ogizanagi/encodpwd-command-bundle",
+    "description": "Provides a simple command to get encoded password following the security configured encoders.",
+    "keywords": [
+        "symfony 2",
+        "command",
+        "password",
+        "encode"
+    ],
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxime Steinhausser",
+            "email": "maxime.steinhausser@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "~2.3"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    },
+    "autoload": {
+        "psr-0": {
+            "Ogi\\EncodPwdCommandBundle": ""
+        }
+    },
+    "target-dir": "Ogi/EncodPwdCommandBundle"
+}
