@@ -38,4 +38,4 @@ class GetEncodedPwdCommand extends ContainerAwareCommand
         $output->writeln("<comment>Your encoded password: </comment><info>".$password."</info>");
     }
 
-} 
+}
